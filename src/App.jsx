@@ -1,4 +1,5 @@
 import './App.css'
+import CptLookup from './CptLookup.jsx'
 
 function App() {
 
@@ -11,9 +12,7 @@ function App() {
       </div>
       <h1>UMB React Project</h1>
       <div className="card">
-        <p>
-          TODO: Create CPT select dropdown component and display the average cost.
-        </p>
+        <CptLookup />
       </div>
       <p className="read-the-docs">
         Check the README to get started!
